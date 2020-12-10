@@ -1,0 +1,112 @@
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.75;
+  position: relative;
+  width: 100vw;
+  font-family: "Open Sans", sans-serif;
+}
+
+.img-1 {
+  background-image: url("../../assets/girlplates.jpg");
+}
+
+.img-2 {
+  background-image: url("../../assets/pottery2.jpg");
+}
+
+.img-3 {
+  background-image: url("../../assets/glasses.jpg");
+}
+
+.img-4 {
+  background-image: url("../../assets/carnival.jpg");
+}
+
+.img-5 {
+    background-image: url("../../assets/handbag2.jpg")
+}
+
+.static {
+  position: relative;
+}
+
+.showNow {
+    color: rgb(93, 214, 198);
+}
+
+.content {
+  background-color: #fff;
+  color: #5a5a5c;
+  padding: 50px;
+  text-align: left;
+}
+.jumbotron {
+    margin-bottom: 0;
+}
+
+h1 {
+  background-color: #111;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 5px;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: intrinsic;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+}
+
+
+h3 {
+  color: #111;
+  /* font-size: 20px; */
+  /* letter-spacing: 2px; */
+  /* text-transform: uppercase; */
+}
+
+@media screen and (max-width: 960px) {
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5 {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.5em;
+    text-align: center;
+  }
+
+  .content {
+    padding: 50px 5px;
+  }
+}
