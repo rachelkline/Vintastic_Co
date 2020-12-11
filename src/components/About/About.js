@@ -16,7 +16,7 @@ const About = () => (
           <h2 className="ui aligned header"> About Us</h2>
           {/* <h3 className="ui aligned header">Family owned since 2016. </h3> */}
           <h3 className="ui aligned header">
-            Hi, we're Vintastic Company! We're a local vintage finds business located near Hershey, PA. Our location provides us with unique access to a region that includes Amish Country, the Capital of Pennsylvania, and Rural Americana. We mine flea markets, auctions, yard sales, and estate sales for unique items to sell to you!{" "}
+            Hi, we're Vintastic Company! We're a local vintage finds business located near Hershey, Pennsylvania. Our location provides us with unique access to a region that includes Amish Country, the Capital of Pennsylvania, and Rural Americana. We mine flea markets, auctions, yard sales, and estate sales for unique items to sell to you!{" "}
           </h3>
         </div>
       </div>

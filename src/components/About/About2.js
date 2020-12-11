@@ -12,6 +12,7 @@ const About = () => (
           ></img>
         </div>
         <div class="column">
+          <br />
           <h2 className="ui aligned header">Shop Local!</h2>
           <h3 className="ui aligned header">
           We've been picking for a long time. We buy and sell almost anything antique or vintage, but our specialties include:
