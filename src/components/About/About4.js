@@ -14,10 +14,10 @@ const About = () => (
         </div>
         <div class="column">
           <br />
-          <h2 className="ui left aligned header"> Get in Touch with Vintastic Co.</h2>
-          <h4 id="email">
-              <strong>Contact: </strong>vintasticco@email.com
-              <br/>
+          <h2 className="ui aligned header"> Get in Touch with Vintastic Company</h2>
+          <h4 className="ui center aligned header">
+              {/* <strong>Contact: </strong>vintasticco@email.com */}
+              {/* <br/> */}
               <br />
           <Button
         href="https://www.instagram.com/vintasticco/"
@@ -60,6 +60,20 @@ const About = () => (
       >
         <i className="etsy icon"></i>
         Etsy
+      </Button>
+      <Button
+        href="https://www.etsy.com/shop/VintasticCo"
+        className="ui instagram button"
+        basic
+        ui
+  
+        color="green"
+        data-inverted="center"
+        // data-tooltip="Follow Us"
+        data-position="top center"
+      >
+        <i className="mail icon"></i>
+        Email
       </Button>
           </h4>{" "}
         </div>

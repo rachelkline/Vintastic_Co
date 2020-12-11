@@ -31,7 +31,7 @@ function Navbar() {
       <>
           <nav className='navbar'>
               <div className='navbar-container'>
-                  <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
+                  <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                       Vintastic Co.
         </Link>
                   <div className='menu-icon' onClick={handleClick}>
@@ -45,7 +45,7 @@ function Navbar() {
                       </li>
                       <li className='nav-item'>
                           <Link
-                              to='/buy'
+                              to='/products'
                               className='nav-links'
                               onClick={closeMobileMenu}
                           >
@@ -61,7 +61,7 @@ function Navbar() {
                               About
             </Link> */}
                       </li>
-                      <li className='nav-item'>
+                      {/* <li className='nav-item'>
                           <Link
                               to='/login'
                               className='nav-links'
@@ -69,8 +69,8 @@ function Navbar() {
                           >
                               Login
             </Link>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                           <Link
                               to='/sign-up'
                               className='nav-links-mobile'
@@ -78,9 +78,9 @@ function Navbar() {
                           >
                               Sign Up
             </Link>
-                      </li>
+                      </li> */}
                   </ul>
-                  {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                  {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
               </div>
           </nav>
       </>

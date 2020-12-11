@@ -8,7 +8,7 @@ import "./Hero.css";
 
 const Hero = () => (
     <>
-    <div class="elfsight-app-2d5a33c3-a371-44d5-91d0-496ed2d6bc2e"/>
+    <a href="/products"><img src="https://via.placeholder.com/1200x500.png?text=Placeholder+Image"/></a>
     <section>
       {/* <div className="ui jumbotron">
         <h3>WELCOME</h3>
